@@ -1,0 +1,38 @@
+{
+  "dataset": "PRANASARA sleep discovery sample",
+  "version": "0.1.0",
+  "retrieved_at_utc": "2026-10-11T07:23:58.163225Z",
+  "requests": [
+    {
+      "query": "insomnia",
+      "url": "https://api.crossref.org/works?query=insomnia&filter=type%3Ajournal-article&rows=10",
+      "retrieved_at_utc": "2026-10-11T07:23:49.822648Z",
+      "returned_count": 10
+    },
+    {
+      "query": "cognitive behavioral therapy insomnia",
+      "url": "https://api.crossref.org/works?query=cognitive+behavioral+therapy+insomnia&filter=type%3Ajournal-article&rows=10",
+      "retrieved_at_utc": "2026-10-11T07:23:52.834384Z",
+      "returned_count": 10
+    },
+    {
+      "query": "circadian rhythm sleep",
+      "url": "https://api.crossref.org/works?query=circadian+rhythm+sleep&filter=type%3Ajournal-article&rows=10",
+      "retrieved_at_utc": "2026-10-11T07:23:56.001210Z",
+      "returned_count": 10
+    },
+    {
+      "query": "obstructive sleep apnea",
+      "url": "https://api.crossref.org/works?query=obstructive+sleep+apnea&filter=type%3Ajournal-article&rows=10",
+      "retrieved_at_utc": "2026-10-11T07:23:58.162309Z",
+      "returned_count": 10
+    }
+  ],
+  "record_count": 39,
+  "dataset_file": "sleep-discovery.jsonl",
+  "sha256": "1db7da5e2d54812b5ce9eee93615f2f8815e6e9d529bc69cd1b2cdabbdf521d3",
+  "compilation_license": "CC0-1.0",
+  "rights_basis": "https://www.crossref.org/documentation/retrieve-metadata/",
+  "license_limitations": "CC0 applies to this factual metadata compilation only. No rights to linked articles, abstracts, full text or other excluded content are granted. Query memberships are retrieval provenance, not reviewed topic labels.",
+  "review_status": "unreviewed discovery sample; not clinical evidence, a comprehensive corpus, or Apify Actor output"
+}
