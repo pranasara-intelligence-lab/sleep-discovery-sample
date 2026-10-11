@@ -35,6 +35,19 @@ for record in records[:3]:
     print(record["doi"], record["titles"], record["query_memberships"])
 ```
 
+## Quality audit and pinned developer examples
+
+The [quality report](QUALITY_REPORT.md) audits all 39 records with reproducible metadata/title rules. There are no duplicate DOIs or normalized-title groups; **14 records have empty author lists**. Two registry candidates, two animal-title mentions and one conference-abstract candidate require verification. These are provisional flags, not clinical classifications. Original records remain unchanged. Per-record findings are in [quality-report.json](quality-report.json); reproduce them with `python3 audit.py`.
+
+Load the pinned public release with its known SHA256 verified before parsing:
+
+```sh
+python3 load-sample.py
+node fetch-sample.mjs
+```
+
+Python uses only its standard library; JavaScript requires Node >=22. Both also accept a local JSONL path for offline verification. For cURL, run `sh fetch-sample.sh /tmp/sleep-discovery.jsonl`, then `python3 load-sample.py /tmp/sleep-discovery.jsonl`. These examples use no API keys or paid calls. The pinned download remains the original 39-record release; a future collection requires its own audit and checksum.
+
 ## Field definitions
 
 | Field | Type | Meaning |
