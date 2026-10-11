@@ -48,6 +48,8 @@ node fetch-sample.mjs
 
 Python uses only its standard library; JavaScript requires Node >=22. Both also accept a local JSONL path for offline verification. For cURL, run `sh fetch-sample.sh /tmp/sleep-discovery.jsonl`, then `python3 load-sample.py /tmp/sleep-discovery.jsonl`. These examples use no API keys or paid calls. The pinned download remains the original 39-record release; a future collection requires its own audit and checksum.
 
+See also the [source verification notes](SOURCE_VERIFICATION.md) for a limited follow-up on registry records, an abstract supplement, an animal model and missing author metadata. The original sample remains unchanged.
+
 ## Field definitions
 
 | Field | Type | Meaning |
